@@ -1,0 +1,25 @@
+{
+  "name": "discordcms",
+  "version": "0.1.0",
+  "description": "Discord as CMS",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "./node_modules/.bin/ts-node src/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owasikohu/DiscordCMS.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/owasikohu/DiscordCMS/issues"
+  },
+  "homepage": "https://github.com/owasikohu/DiscordCMS#readme",
+  "dependencies": {
+    "discord.js": "^14.17.3",
+    "hono": "^4.6.17",
+    "marked": "^15.0.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
